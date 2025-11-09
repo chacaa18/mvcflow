@@ -18,9 +18,9 @@ class ItemFactory extends Factory
     {
         return [
             'category_id' => fake()->numberBetween(1, 10),
-            'name' => fake()->word(),
-            'price' => fake()->randomFloat(1000, 1000000),
-            'stock' => fake()->numberBetween(1, 100),
+            'name' => fake ()-> word(),
+            'price' => fake ()-> randomFloat(1000, 1000000),
+            'stock' => fake ()-> numberBetween(1, 100),
         ];
     }
 }
